@@ -1,0 +1,1527 @@
+!SESSION 2025-03-13 15:43:29.202 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\frontedProject\Springboot_Workshop
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-13 15:43:33.415
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-13 15:43:35.671
+!MESSAGE Logback config file: C:\frontedProject\Springboot_Workshop\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-13 15:43:36.475
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-13 15:43:36.475
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-13 15:43:37.128
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-13 15:43:37.128
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-03-13 15:43:44.098
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-13 15:43:45.921
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\durga roy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:19.502
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:19.506
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:19.510
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:19.560
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-13 15:49:19.591
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sb\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741861159589
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sb\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:19.593
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-13 15:49:19.612
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8356
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:22.205
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:24.572
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-13 15:49:24.910
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.eclipse.jface 2 0 2025-03-13 16:10:00.630
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-13 16:10:00.630
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-13 16:13:17.728
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 10:07:58.353
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sb\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742618278311
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sb\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 10:07:58.371
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-03-22 10:07:58.404
+!MESSAGE ExecutionException occurred during shutdown of EndpointProxy for org.eclipse.lsp4j.jsonrpc.RemoteEndpoint@4c71f924
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper$LanguageServerContext.close(LanguageServerWrapper.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:356)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy21/jdk.proxy21.$Proxy74.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper$LanguageServerContext.close(LanguageServerWrapper.java:163)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:367)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 10:07:58.436
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 28288
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 10:07:58.581
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 10:07:58.663
+!MESSAGE Stopped org.springframework.tooling.boot.ls LS process 8356
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-03-22 11:26:49.426
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 275] A resource exists with a different case: '/backend/src/main/java/com/ihub/www/controller'.
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:314)
+	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:92)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:327)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:179)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:109)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1004)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:951)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.widgetDefaultSelected(CompletionProposalPopup.java:697)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: java.lang.Exception: A resource exists with a different case: '/backend/src/main/java/com/ihub/www/controller'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
+	... 38 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/backend/src/main/java/com/ihub/www/controller)[275]: java.lang.Exception: A resource exists with a different case: '/backend/src/main/java/com/ihub/www/controller'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
+	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:92)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:327)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:179)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:109)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1004)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:951)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.widgetDefaultSelected(CompletionProposalPopup.java:697)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2025-03-22 11:26:49.437
+!MESSAGE A resource exists with a different case: '/backend/src/main/java/com/ihub/www/controller'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/backend/src/main/java/com/ihub/www/controller'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
+	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:92)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:327)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:179)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:109)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1004)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:951)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.widgetDefaultSelected(CompletionProposalPopup.java:697)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-22 11:27:13.507
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-22 11:30:16.417
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:40:55.517
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 11:40:55.519
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:40:55.527
+!MESSAGE Boot project REMOVED: backend
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 11:40:55.532
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 11:40:55.546
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 11:40:55.548
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 11:40:55.557
+!MESSAGE executing callback sts4.classpath.wReRpbgy FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 11:40:55.561
+!MESSAGE No language server has registered to handle command 'sts4.classpath.wReRpbgy'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.wReRpbgy'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-03-22 11:40:55.857
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-03-22 11:40:55.858
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 11:40:55.858
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2025-03-22 11:40:55.858
+!MESSAGE Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+!STACK 0
+java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 11:40:55.858
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-03-22 11:41:17.057
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-03-22 11:41:17.058
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 11:41:17.058
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2025-03-22 11:41:17.058
+!MESSAGE Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+!STACK 0
+java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 11:41:17.058
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-03-22 11:41:25.500
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2025-03-22 11:41:25.501
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-03-22 11:41:25.501
+!MESSAGE The project description file (.project) for 'backend' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2025-03-22 11:41:32.507 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-22 11:42:18.966
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-22 11:42:27.025
+!MESSAGE Logback config file: C:\frontedProject\Springboot_Workshop\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-22 11:42:27.881
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-22 11:42:27.882
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-22 11:42:28.410
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-22 11:42:28.410
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-03-22 11:42:33.122
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-22 11:42:34.306
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\durga roy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:43:10.117
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:28.562
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:32.637
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:32.638
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:32.640
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:32.695
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 11:46:32.784
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sb\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742624192783
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sb\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:32.786
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 11:46:32.813
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 37144
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:34.719
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 11:46:39.398
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.eclipse.jface 2 0 2025-03-22 12:21:15.122
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-22 12:21:15.122
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-22 12:24:05.292
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:28:22.994
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:28:22.996
+!MESSAGE Boot project REMOVED: backend
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:28:23.000
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-03-22 12:28:23.339
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-03-22 12:28:23.341
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 12:28:23.342
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2025-03-22 12:28:23.342
+!MESSAGE Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+!STACK 0
+java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 12:28:23.342
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-03-22 12:28:36.384
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-03-22 12:28:36.384
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 12:28:36.385
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2025-03-22 12:28:36.385
+!MESSAGE Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+!STACK 0
+java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 12:28:36.385
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-03-22 12:28:54.415
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+Contains: Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-03-22 12:28:54.415
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 12:28:54.415
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:203)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2025-03-22 12:28:54.415
+!MESSAGE Could not delete: C:\frontedProject\Springboot_Workshop\backend.
+!STACK 0
+java.nio.file.FileSystemException: C:\frontedProject\Springboot_Workshop\backend: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:309)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:201)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:448)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-03-22 12:28:54.442
+!MESSAGE Could not delete 'C:\frontedProject\Springboot_Workshop\backend'.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:29:07.198
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY Activator 4 0 2025-03-22 12:29:07.409
+!MESSAGE DebugException: Launch configuration backend - BackendApplication at file:/C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.eclipse.debug.core/.launches/backend%20-%20BackendApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration backend - BackendApplication at file:/C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.eclipse.debug.core/.launches/backend%20-%20BackendApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:390)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchConfigurationDelegate.getEnableJmx(BootLaunchConfigurationDelegate.java:426)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:195)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-03-22 12:29:07.409
+!MESSAGE Launch configuration backend - BackendApplication at file:/C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.eclipse.debug.core/.launches/backend%20-%20BackendApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2025-03-22 12:29:07.411
+!MESSAGE DebugException: Launch configuration backend - BackendApplication at file:/C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.eclipse.debug.core/.launches/backend%20-%20BackendApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration backend - BackendApplication at file:/C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.eclipse.debug.core/.launches/backend%20-%20BackendApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:415)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:322)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:307)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:196)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-03-22 12:29:07.412
+!MESSAGE Launch configuration backend - BackendApplication at file:/C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.eclipse.debug.core/.launches/backend%20-%20BackendApplication.launch does not exist.
+
+!ENTRY org.eclipse.debug.core 4 2 2025-03-22 12:29:07.422
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.debug.core.ILaunchConfiguration.getType()" because "configuration" is null
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.clearTestJarWorkspaceProjectFiles(TestJarLaunchListener.java:61)
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.launchesTerminated(TestJarLaunchListener.java:197)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:257)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:931)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:481)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:646)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2025-03-22 12:29:07.425
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.debug.core.ILaunchConfiguration.getType()" because "configuration" is null
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.clearTestJarWorkspaceProjectFiles(TestJarLaunchListener.java:61)
+	at org.springframework.ide.eclipse.boot.launch.TestJarLaunchListener.launchesTerminated(TestJarLaunchListener.java:197)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:257)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:931)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:481)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:646)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:32:31.972
+!MESSAGE Classpath changed for project: backend1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:32:31.973
+!MESSAGE Boot project ADDED: backend1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:32:33.107
+!MESSAGE Classpath changed for project: backend1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:32:35.119
+!MESSAGE Classpath changed for project: backend1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:57:04.774
+!MESSAGE Classpath changed for project: backend1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.788
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.788
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 12:57:04.885
+!MESSAGE Boot project REMOVED: backend1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.886
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.887
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.888
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.888
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.890
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.890
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.891
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.891
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.893
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.893
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.894
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.894
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.896
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.897
+!MESSAGE backend1 does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-22 12:57:04.899
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): backend1 does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-22 12:57:04.899
+!MESSAGE backend1 does not exist
+!SESSION 2025-03-22 14:20:10.779 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-22 14:21:08.347
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-22 14:21:18.722
+!MESSAGE Logback config file: C:\frontedProject\Springboot_Workshop\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-22 14:21:19.702
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-22 14:21:19.702
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-22 14:21:20.272
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-22 14:21:20.272
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-03-22 14:21:26.445
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-22 14:21:28.318
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\durga roy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 14:24:38.937
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 14:24:38.940
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 14:24:38.942
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 14:24:39.000
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 14:24:39.102
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sb\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742633679100
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sb\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 14:24:39.104
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-22 14:24:39.127
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 39504
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 14:24:43.708
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-22 14:24:43.963
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.eclipse.jface 2 0 2025-03-22 14:35:17.527
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-22 14:35:17.527
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-04-18 10:58:09.039 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 10:59:22.486
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-18 11:00:58.573
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 11:01:01.710
+!MESSAGE Logback config file: C:\frontedProject\Springboot_Workshop\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 11:01:02.713
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 11:01:02.713
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 11:01:03.463
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 11:01:03.463
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-04-18 11:01:10.925
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-18 11:01:12.524
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\durga roy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 11:01:13.681
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 11:01:13.687
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 11:01:13.804
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-18 11:01:13.932
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sb\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/frontedProject/Springboot_Workshop/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1744954273929
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\sb\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 11:01:13.937
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-18 11:01:14.040
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 48980

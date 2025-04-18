@@ -1,0 +1,327 @@
+step30:
+-------
+	Create a  Add employee button inside EmployeeListComponent.js file.
+
+EmployeeListComponent.js 
+------------------------
+import React from 'react'
+import { useState } from 'react';
+import {useTypewriter,Cursor} from 'react-simple-typewriter'
+import {Link} from 'react-router-dom';
+
+function EmployeeListComponent() 
+{
+    const [text] = useTypewriter({
+        words: ["List", "Details", "Info"],
+        loop:true,
+        typeSpeed:120,
+        deleteSpeed:80
+    })
+
+  const [employees,setEmployees]= useState([]);
+
+  return (
+    <div className='container mt-3'>
+        <h4 className='text-center'> Employee {text}<Cursor/> </h4>
+        <div className='row mt-5'>
+            <Link to="/add-emp" className='btn btn-warning w-25 mb-3'> Add Employee</Link>
+            <table className='table table-bordered table-striped'>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name </th>
+                        <th>DOJ</th>
+                        <th>Department</th>
+                        <th>Designation</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        employees.map(employee =>{
+                            return <tr key={employee.id}>
+                                        <td>employee.id</td>
+                                        <td>employee.name</td>
+                                        <td>employee.doj</td>
+                                        <td>employee.dept.deptName</td>
+                                        <td>employee.dept.designation</td>
+                                    </tr>
+                        })
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+  )
+}
+
+export default EmployeeListComponent
+ 
+
+step31:
+------
+	Create a CreateEmployeeComponent.js file inside "components" folder.
+
+CreateEmployeeComponent.js 
+--------------------------
+import React from 'react'
+
+function CreateEmployeeComponent() {
+  return (
+    <div>
+      Create Employee Component
+    </div>
+  )
+}
+
+export default CreateEmployeeComponent
+
+
+step32:
+-----
+	Add routing to CreateEmployeeComponent.js file inside App.js file.
+
+App.js 
+--------
+import React from 'react'
+import HeaderComponent from './components/HeaderComponent'
+import EmployeeListComponent from './components/EmployeeListComponent'
+import FooterComponent from './components/FooterComponent'
+import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import CreateEmployeeComponent from './components/CreateEmployeeComponent';
+
+
+function App() {
+  return (
+    <div className='bgColor'>
+        <HeaderComponent/>
+
+        <BrowserRouter>
+                <div className='container mt-5'>
+                    <Routes>
+                          <Route exact path='/' element={<EmployeeListComponent/>}></Route>
+                          <Route path='/employees' element={<EmployeeListComponent/>}></Route>
+                          <Route path="/add-emp" element={<CreateEmployeeComponent/>}></Route>
+                    </Routes>
+                </div>
+        </BrowserRouter>
+        
+        <FooterComponent/>
+    </div>
+  )
+}
+
+export default App
+
+
+step33:
+-------
+	Create a services folder inside "src" folder.
+
+step34:
+------
+	Create a EmployeeService.js file inside "services" folder.
+
+EmployeeService.js
+---------------------
+
+import axios from 'axios';
+const EMPLOYEE_API = "http://localhost:9191/api/v1/employees";
+
+class EmployeeService
+{
+    addEmployee(employee)
+    {
+        return axios.post(EMPLOYEE_API,employee);
+    }
+}
+export default new EmployeeService();
+
+
+step35:
+------
+	Create a form inside CreateEmployeeComponent.js file.
+
+CreateEmployeeComponent.js 
+--------------------------
+import React from 'react'
+import { useState } from 'react'
+import {useNavigate} from 'react-router-dom';
+import EmployeeService from '../services/EmployeeService';
+
+function CreateEmployeeComponent() 
+{
+
+  const navigate = useNavigate();
+
+   const [employee,setEmployee]=useState({
+    name:"",
+    doj:"",
+    dept:{
+      deptName:"",
+      designation:""
+    }
+   })
+
+   const [errors,setErrors]= useState({
+    name:"",
+    doj:"",
+    deptName:"",
+    designation:""
+   }) 
+
+   const handleChange=(e)=>{
+    
+      const {name,value} = e.target;
+
+      if(name=='name' || name=='doj')
+      {
+          setEmployee({...employee,[name]:value});
+      }
+      else
+      {
+         setEmployee({...employee, dept:{...employee.dept,[name]:value}})
+      }
+   }
+
+   const formatDate = (date) => {
+    const d = new Date(date);
+    const day = String(d.getDate()).padStart(2, '0');
+    const month = String(d.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+    const year = d.getFullYear();
+    return `${day}-${month}-${year}`;
+  };
+
+
+
+
+   const validateForm=()=>{
+    const tempErrors={};
+    let isValid=true;
+
+    if(!employee.name)
+    {
+      tempErrors.name = "Name is mandatory";
+      isValid=false;
+    }
+
+    if(!employee.doj)
+    {
+      tempErrors.doj = "Date is mandatory";
+      isValid=false;
+    }
+
+    if(!employee.dept.deptName)
+    {
+      tempErrors.deptName = "Department Name is mandatory";
+      isValid=false;
+    }
+
+    if(!employee.dept.designation)
+    {
+        tempErrors.designation = "Designation is mandatory";
+        isValid=false;
+    }
+     
+    setErrors(tempErrors);
+    return isValid;
+
+   }
+
+
+   const handleSubmit=(e)=>{
+    e.preventDefault();
+
+    if(validateForm())
+    {
+        const formattedDate = formatDate(employee.doj);
+
+        const employeeData = {
+          ...employee,doj:formattedDate
+        }
+        
+        EmployeeService.addEmployee(employeeData).then(res=>{
+          navigate("/employees");
+        })
+    }
+   }
+
+
+
+   const cancelHandle=(e)=>{
+    e.preventDefault();
+    navigate("/employees");
+   }
+
+
+  return (
+    <div className='card col-md-6 offset-3'>
+      <h4 className='text-center'> Add Employee </h4>
+      <div className='card-body'>
+        <form>
+          <label className='my-2'>Name:</label>
+          <input type="text" name="name" id="name" className='form-control'
+          value={employee.name}
+          onChange={handleChange}/>  
+
+          {errors.name && <div className='text-danger'>{errors.name}</div>}
+
+          <label className='my-2'>DOJ:</label>
+          <input type="date" name="doj" id="doj" className='form-control'
+          value={employee.doj}
+          onChange={handleChange}/>  
+
+          {errors.doj && <div className='text-danger'>{errors.doj}</div>}
+          
+          <label className='my-2'>Department:</label>
+          <input type="text" name="deptName" id="deptName" className='form-control'
+          value={employee.dept.deptName}
+          onChange={handleChange}/> 
+
+          {errors.deptName && <div className='text-danger'>{errors.deptName}</div>} 
+          
+          <label className='my-2'>Designation:</label>
+          <input type="text" name="designation" id="designation" className='form-control'
+          value={employee.dept.designation}
+          onChange={handleChange}/>
+
+
+          {errors.designation && <div className='text-danger'>{errors.designation}</div>} 
+
+          <button className='btn btn-danger mt-3' onClick={cancelHandle}> cancel</button>
+          <button className='btn btn-success mt-3 ms-3' onClick={handleSubmit}> submit </button> 
+        </form> 
+
+      </div>
+    </div>
+  )
+}
+
+export default CreateEmployeeComponent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
